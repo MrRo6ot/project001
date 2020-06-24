@@ -1,0 +1,59 @@
+*   {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 48px;
+}
+
+#search-icon {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.55;    
+}
+
+#search-icon:hover   {
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+}
+
+ul  {
+    list-style: none;
+    height: 48px;
+}
+
+ul li   {
+    opacity: 0.55;
+    border-bottom: solid;
+    border-bottom-width: 0px;
+    transition: color 2s;
+}
+
+ul li:hover   {
+    opacity: 1;
+    color: red;
+    border-bottom-width: 5px;
+    
+}
+
+ul li a  {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(255, 205, 60);
+    text-decoration: none;
+}
+
+.search {
+    width: 70%;
+}
+
+main    {
+    background-color: rgb(241, 239, 234);
+}
